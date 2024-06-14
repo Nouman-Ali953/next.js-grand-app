@@ -1,0 +1,31 @@
+.css-t1brmr-MuiSlider-thumb::after{
+    background-color: #3BB77E;
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.css-ttgsjq-MuiSlider-track{
+    color: #3BB77E;
+}
+
+.css-7o8aqz-MuiSlider-rail{
+    
+    color: #3BB77E;
+}
+.css-t1brmr-MuiSlider-thumb{
+    background-color: #3BB77E;
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.css-t1brmr-MuiSlider-thumb::before{
+    background-color: #3BB77E;
+    width: 15px !important;
+    height: 15px !important;
+
+}
+
+
+.css-14gyywz-MuiSlider-valueLabel{
+    display: none !important;
+}

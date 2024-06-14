@@ -1,0 +1,13 @@
+.branding {
+  width: 100%;
+  height: 7rem;
+  background-color: rgb(228, 225, 225);
+  display: flex;
+  justify-content: space-around;
+  justify-self: flex-end;
+  padding: 0px 15rem;
+  align-items: center;
+}
+.brand_img {
+  filter: invert(10%); /* Invert all colors, turning black to white */
+}

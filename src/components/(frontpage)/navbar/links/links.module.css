@@ -1,0 +1,57 @@
+.wrapper {
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.link{
+  text-decoration: none;
+  padding: 0.5rem;
+  color: inherit;
+  font-size: inherit;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.link:last-child,
+.link:nth-child(4) {
+  font-weight: bolder;
+}
+.link:nth-child(5):hover,
+.link:nth-child(4):hover {
+  border: 0.5px solid white;
+  transition: border 0.4s ease-in-out !important; 
+  border-radius: 4px;
+}
+
+.link:first-of-type {
+  font-weight: bolder;
+  
+}
+.link:last-child {
+  border: .1px solid rgb(3, 171, 3);
+  color: rgb(3, 171, 3);
+  font-size: 12px;
+  padding: .7rem 1rem;
+  border-radius: 4px;
+}
+.link:last-child:hover {
+  transition: .2s ease;
+  border: .1px solid rgb(3, 171, 3);
+  color: white;
+  background-color: rgb(3, 171, 3);
+  font-size: 12px;
+  padding: .7rem 1rem;
+}
+
+.wrapper svg{
+  padding: 0%;
+  margin: 0%;
+  margin-right: -16px;
+}

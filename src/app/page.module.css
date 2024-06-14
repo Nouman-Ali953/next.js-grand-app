@@ -1,0 +1,148 @@
+.container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  font-size: 1.4rem;
+  color: var(--text);
+  padding: 7rem 2rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.second {
+  background-color: rgba(128, 128, 128, 0.441);
+  width: 100%;
+  height: 100vh;
+}
+
+.main_container {
+  /* position: relative; */
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--bg);
+}
+
+.container {
+  /* position: relative; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.brand {
+  /* margin-top: 8.3rem; */
+  position: absolute;
+  top: 15rem;
+  width: 70%;
+  height: 60vh;
+  padding-right: 3rem;
+  z-index: 3;
+}
+
+.brand h2 {
+  line-height: 3.7rem;
+  padding-right: 9rem;
+  font-size: 3rem;
+  color: var(--text);
+}
+
+.search {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+}
+.form_search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 77%;
+}
+.search input[type="text"] {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 3.12rem;
+  background-color: white;
+  color: gray;
+  outline: none;
+  border: none;
+  padding-left: 2rem;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+.search .button {
+  background-color: rgb(4, 164, 4);
+  width: 5rem;
+  height: 3.12rem;
+  border: none;
+  color: white;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+  cursor: pointer;
+}
+.image_item {
+  /* position: absolute; */
+  width: 100%;
+  height: 120vh;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.image_item.active {
+  opacity: 1;
+}
+.popular {
+  width: 80%;
+  height: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.pop {
+  padding: 3px 10px;
+  border: 1.4px solid white;
+  border-radius: 25px;
+  min-width: 10%;
+  font-weight: 400;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.pop:hover {
+  transition: 0.24s ease-in-out;
+  color: gray;
+  background-color: white;
+}
+
+/* HTML: <div class="loader"></div> */
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .loader {
+  width: 40px;
+  aspect-ratio: 1;
+  --_c: no-repeat radial-gradient(farthest-side, #0b0c0cdd 92%, #0000);
+  background: var(--_c) top, var(--_c) left, var(--_c) right, var(--_c) bottom;
+  background-size: 12px 12px;
+  animation: l7 1s infinite;
+}
+@keyframes l7 {
+  to {
+    transform: rotate(0.5turn);
+  }
+}
+
+/* HTML: <div class="loader"></div> */

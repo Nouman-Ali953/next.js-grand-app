@@ -1,0 +1,44 @@
+.container{
+    width: 97%;
+    height: 35vh;
+    margin-top: 1rem !important;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #D8F1E5;
+    position: relative;
+    .text{
+        position: absolute;
+        top: 3rem;
+        left: 4rem;
+        h2{
+            font-size: 2rem;
+        }
+        ul{
+            text-decoration: none;
+            list-style: none;
+            display: inline-flex;
+            gap: 10px;
+            align-items: center;
+            padding-left: .2rem;
+            margin-top: .4em;
+            svg{
+                font-size: 16px;
+            }
+            li{
+                letter-spacing: .4px;
+                font-size: .8rem;
+                color: gray;
+                padding: 0%;
+                margin: 0px;
+                &:nth-child(2){
+                    font-weight: bold;
+                    color: green !important;
+                }
+                &:hover{
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

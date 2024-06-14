@@ -1,0 +1,122 @@
+h2 {
+  margin-top: 2rem;
+  width: 80%;
+  margin-bottom: 0.5rem;
+  margin-left: 0%;
+  padding-left: 0%;
+  font-family: "Quicksand", sans-serif;
+}
+.home_slider_main {
+  width: 96%;
+  margin-left: 1.2rem;
+  height: 10.7rem;
+  margin-bottom: 2rem;
+}
+.home_slider_main svg {
+  display: none;
+}
+ .info {
+  display: flex !important;
+  margin-top: 1rem;
+  border-radius: 5px;
+  width: 9.8rem !important;
+  height: 9rem;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  gap: 10px !important;
+  margin-left: .7rem;
+}
+
+.info h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgb(63, 63, 63);
+}
+.info p {
+  font-size: 0.72rem;
+}
+
+.title {
+  /* padding-top: 2.4rem ; */
+  margin-left: 1.7rem;
+  font-weight: 600;
+  color: rgb(68, 68, 68);
+  letter-spacing: 0.5px;
+}
+
+.home_slider_main .slick-arrow.slick-prev::before {
+  content: "\f060"; /* Unicode character reference for the arrow icon */
+  font-family: FontAwesome;
+  font-size: 20px; /* Adjust the size as needed */
+  color: #000; /* Adjust the color as needed */
+  font-weight: normal !important ;
+  border-radius: 50px;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.253);
+  padding: 0.5rem 0.6rem;
+}
+
+.home_slider_main .slick-arrow.slick-prev:hover::before,
+.home_slider_main .slick-arrow.slick-next:hover::before {
+  background-color: #3bb77e;
+  transition: 0.2s all ease;
+}
+.home_slider_main .slick-arrow.slick-next {
+  color: wheat !important;
+  top: -25px !important;
+  right: 15px !important;
+}
+
+.home_slider_main .slick-arrow.slick-prev {
+  top: -25px !important;
+  right: 46px !important;
+  left: inherit !important;
+  width: 2rem;
+  height: 2rem;
+}
+
+.home_slider_main .slick-arrow.slick-next::before {
+  content: "\f061"; /* Unicode character reference for the arrow icon */
+  font-family: FontAwesome;
+  font-size: 20px; /* Adjust the size as needed */
+  color: #000; /* Adjust the color as needed */
+  font-weight: 100;
+  border-radius: 50px;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.253);
+  padding: 0.5rem 0.6rem;
+}
+
+.info {
+  transition: 0.2s all ease-in-out !important;
+  margin-bottom: 1rem;
+  box-shadow: 0.5px 0.9px 8px rgba(128, 128, 128, 0.434);
+  cursor: pointer;
+  display: flex !important;
+  color: black;
+}
+
+.info:hover {
+  box-shadow: 0.5px 0.9px 8px rgba(128, 128, 128, 0.434);
+}
+
+.info:hover + h6 {
+  color: #3bb77e;
+  transition: 0.2s all ease-in-out;
+}
+
+ h6:hover{
+
+  color: #3bb77e;
+}
+
+.info:hover img {
+  transition: 0.2s all ease-in-out;
+  transform: scale(1.2);
+}
+
+.info:hover img:hover + h6 {
+  color: #3bb77e !important;
+}

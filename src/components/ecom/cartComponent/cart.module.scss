@@ -1,0 +1,158 @@
+.headre_text {
+    padding: 1rem;
+    .heading {
+        font-family: var(--font-quicksand);
+        font-size: 2rem;
+    }
+    p {
+        font-family: var(--font-quicksand);
+        span {
+            color: #3bb77e;
+            font-weight: bold;
+        }
+    }
+}
+.container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    .cart_details {
+        width: 65%;
+        padding: 1rem;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 0.2px solid rgba(182, 178, 178, 0.372);
+        }
+
+        thead th {
+            background-color: #dbdadaa1;
+            border-bottom: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            height: 3.2rem;
+            font-family: var(--font-quicksand);
+            font-size: 0.86rem;
+            text-align: center;
+            &:nth-child(1) {
+                text-align: left;
+                padding-left: 1.51rem;
+            }
+        }
+        thead th:nth-child(2) {
+            width: 6rem;
+            height: 3.2rem;
+        }
+
+        tbody td {
+            border-bottom: 1px solid #ddd;
+            padding: 18px;
+            font-size: .85rem;
+            img {
+                border: 0.3px solid rgba(128, 128, 128, 0.258);
+                padding: 0.7rem !important;
+                width: 12.4rem;
+                height: 6.4rem;
+                margin: 0px 7px;
+                object-fit: cover;
+            }
+        }
+
+        tbody td:first-child {
+            font-family: var(--font-quicksand);
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .p_detail {
+                font-family: var(--font-quicksand) !important;
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                text-align: left;
+                gap: 4px;
+                h4 {
+                    font-family: var(--font-quicksand) !important;
+                    transition: all 0.3s ease-in-out;
+                    font-size: .96rem;
+                    &:hover {
+                        cursor: pointer;
+                        color: #3bb77e;
+                    }
+                }
+                p {
+                    font-family: var(--font-quicksand) !important;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        tbody td:last-child {
+            text-align: center;
+        }
+
+        tbody td:last-child button {
+            padding: 6px 12px;
+            background-color: #f44336;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        tbody td:last-child button:hover {
+            background-color: #d32f2f;
+        }
+    }
+    .bill {
+        display: flex;
+        width: 35%;
+        .wrapper {
+            box-shadow: 0.4px 0.9px 3px rgba(128, 128, 128, 0.694);
+            width: 87%;
+            height: 18rem;
+            margin: 1.1rem 2.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            .bill_wrapper {
+                margin: 1rem;
+                width: 90%;
+                border: 0.5px solid rgba(128, 128, 128, 0.441);
+                height: 50%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+                .box {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0.6rem 1rem;
+                    align-items: center;
+                    height: 100%;
+                    h4 {
+                        color: rgba(128, 128, 128, 0.568);
+                        font-size: 1rem;
+                        letter-spacing: 0.4px;
+                    }
+                    p {
+                        font-weight: bold;
+                        color: #3bb77e;
+                    }
+                }
+            }
+            button {
+                margin-top: -0.6rem;
+                color: white;
+                background-color: #3bb77e;
+                width: 90%;
+                &:hover {
+                    background-color: rgb(255, 208, 0);
+                }
+            }
+        }
+    }
+}

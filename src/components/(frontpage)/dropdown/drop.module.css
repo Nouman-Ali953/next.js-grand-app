@@ -1,0 +1,11 @@
+.drop{
+    color: var(--text) ;
+}
+
+.other_pages{
+    color: var(--text_nav) !important;
+}
+
+.white{
+    color: white !important;
+}

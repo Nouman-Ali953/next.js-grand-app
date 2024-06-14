@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--text);
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  height: 6rem;
+  z-index: 2;
+  background-color: transparent;
+  z-index: 5;
+  transition: .6s ease-in-out;
+}
+
+.bacRed {
+  z-index: 0;
+  display: flex;
+  background-color: white !important; 
+  background-color: var(--bg) !important; 
+  color: var(--text_nav);
+  position: static !important;
+  top: 0px;
+  border-bottom: .5px solid rgba(128, 128, 128, 0.333);
+}
+.logo {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+  display: flex;
+  color: var(--text_nav);
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.logC {
+  color: white;
+  color: var(--text_nav);
+}
+
+.logo span {
+  font-size: 4rem;
+  color: blueviolet;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+
+.scrolled {
+  background-color: var(--bg_nav);
+  color: var(--text_nav);
+  position: sticky;
+  top: 0%;
+  transition: .4s ease-in-out;
+}
+.logos {
+  color: var(--text_nav);
+}

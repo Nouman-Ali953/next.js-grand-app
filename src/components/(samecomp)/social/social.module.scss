@@ -1,0 +1,63 @@
+.container {
+    position: fixed;
+    top: 40%;
+    right: 0%;
+    width: 8rem;
+    height: 10rem;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    .box {
+        width: 3rem;
+        transition: 0.4s ease-in-out;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        height: 25%;
+        svg {
+            font-size: 1.5rem;
+        }
+        span {
+            padding: 0%;
+            margin: 0%;
+            font-weight: 700;
+            display: none;
+        }
+    }
+    .box:hover {
+        width: 8rem;
+        cursor: pointer;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        transition: 0s ease-in-out;
+    }
+    .box:hover span {
+        transition: 0.4s ease-in-out;
+        display: inline;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .box:first-child {
+        border-top-left-radius: 5px;
+    }
+    .box:last-child {
+        border-bottom-left-radius: 5px;
+    }
+    .facebook {
+        color: rgb(0, 119, 255);
+    }
+    .instagram {
+        color: purple;
+    }
+    .theme {
+        color: gold;
+        transition: 0.3s ease-in-out;
+    }
+    .youtube {
+        color: red;
+    }
+}

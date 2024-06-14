@@ -1,0 +1,41 @@
+.container{
+    width: 100%;
+    padding: 0px 1.6rem;
+    height: 3.2rem;
+    display: flex;
+    align-items: center;
+    border-bottom: .2px solid rgba(160, 159, 159, 0.32);
+    ul{
+        text-decoration: none;
+        list-style: none;
+        display: inline-flex;
+        gap: 15px;
+        align-items: center;
+        padding-left: .2rem;
+        margin-top: .4em;
+        margin-left: .8rem;
+        svg{
+            font-size: 16px;
+            font-weight: 100;
+        }
+        li{
+            letter-spacing: .4px;
+            font-size: .8rem;
+            color: gray;
+            padding: 0%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            margin: 0px;
+            &:nth-child(2){
+                color: #3BB77E !important;
+            }
+            &:nth-of-type(2){
+                color: #3BB77E !important;
+            }
+            &:hover{
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+    }
+}

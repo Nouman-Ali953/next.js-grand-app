@@ -1,0 +1,54 @@
+.slick-arrow.slick-prev::before {
+  content: "\f060"; /* Unicode character reference for the arrow icon */
+  font-family: FontAwesome;
+  font-size: 20px; /* Adjust the size as needed */
+  color: #000; /* Adjust the color as needed */
+  font-weight: normal !important ;
+  border-radius: 50px;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.253);
+  padding: 0.5rem 0.6rem;
+}
+
+.large .slick-slide img {
+  padding: 2.5rem 1.6rem;
+  /* height: 90% !important;
+  width: 90% !important; */
+  /* overflow: hidden; */
+}
+.large .slick-slide {
+  /* overflow: hidden; */
+  height: 90vh !important;
+}
+.slick-arrow.slick-prev:hover::before,
+.slick-arrow.slick-next:hover::before {
+  background-color: #3bb77e;
+  transition: 0.2s all ease;
+}
+.slick-arrow.slick-next {
+  z-index: 3;
+  color: wheat !important;
+  right: -0.57rem;
+}
+.large .slick-arrow.slick-next {
+  z-index: 3;
+  color: wheat !important;
+}
+
+.slick-arrow.slick-prev {
+  z-index: 3;
+  width: 2rem;
+  height: 2rem;
+}
+
+.slick-arrow.slick-next::before {
+  content: "\f061"; /* Unicode character reference for the arrow icon */
+  font-family: FontAwesome;
+  font-size: 20px; /* Adjust the size as needed */
+  color: #000; /* Adjust the color as needed */
+  font-weight: 100;
+  border-radius: 50px;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.253);
+  padding: 0.5rem 0.6rem;
+}

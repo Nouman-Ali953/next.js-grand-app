@@ -1,0 +1,110 @@
+.container {
+    width: 100%;
+    height: 26rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discover {
+    width: 95%;
+    height: 45rem;
+    margin-top: -2rem;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.64s ease;
+    box-shadow: 0px 0px 3px 0px black;
+    background-position: center;
+    background-image: url("/image2.jpg");
+}
+.discover:hover {
+    background-position: 20% 20%;
+}
+.discover .content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+    color: white;
+    z-index: 3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 1.2rem;
+}
+
+.discover .content a {
+    text-decoration: none;
+    text-align: center;
+    width: 8em;
+    color: white;
+    font-size: 1.2em;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    background-color: var(--plat);
+    cursor: pointer;
+    z-index: 3;
+}
+
+.discover .content a:hover {
+    background-color: #1877f2;
+}
+.discover h1 {
+    z-index: 3;
+    font-size: 2.2em;
+}
+.discover p {
+    z-index: 3;
+    font-size: large;
+    letter-spacing: 1px;
+}
+
+.discover .black_shadow {
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(43, 43, 43, 0.027);
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.481), rgba(113, 113, 113, 0.122));
+    z-index: 2;
+    border-radius: inherit;
+}
+@media only screen and (max-width: 1280px) {
+    .discover {
+        height: 19.9em;
+        margin: 7em auto;
+    }
+    .discover h1 {
+        z-index: 3;
+        font-size: 2em;
+    }
+    .discover p {
+        z-index: 3;
+        font-size: medium;
+    }
+    .discover .content a {
+        font-size: medium;
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .discover {
+        height: 10em;
+        margin: 5em auto;
+    }
+    .discover h1 {
+        z-index: 3;
+        font-size: 1.1em;
+    }
+    .discover p {
+        z-index: 3;
+        font-size: small;
+    }
+    .discover .content a {
+        font-size: smaller;
+    }
+}

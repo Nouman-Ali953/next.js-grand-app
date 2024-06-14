@@ -1,0 +1,53 @@
+.tooltip {
+    position: relative;
+    list-style: none;
+    height: inherit;
+    width: inherit;
+    font-family: Quicksand, sans-serif;
+  }
+
+  
+  .tooltip:before,
+  .tooltip:after {
+    display: block;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+  }
+  
+  .tooltip:after {
+    border-left: 6px solid transparent;
+    border-top: 6px solid #3bb77e; /* Change border-top */
+    border-right: 6px solid transparent;
+    content: '';
+    height: 0;
+    bottom: 20px; /* Change bottom to move it above */
+    left: 13px;
+    width: 0;
+  }
+  
+  .tooltip:before {
+    background: #3bb77e;
+    border-radius: 2px;
+    color: #fff;
+    content: attr(data-title);
+    font-size: 10px;
+    padding: 6px 10px;
+    bottom: 26px; /* Change bottom to move it above */
+    white-space: nowrap;
+  }
+  
+  /* the animations */
+  /* fade */
+  .tooltip:after,
+  .tooltip:before {
+    transform: translate3d(0, 12px, 0); /* Change to move it upwards */
+    transition: all .15s ease-in-out;
+  }
+  
+  .tooltip:hover:after,
+  .tooltip:hover:before {
+    opacity: 1;
+    transform: translate3d(0, -10px, 0);
+  }
+  
