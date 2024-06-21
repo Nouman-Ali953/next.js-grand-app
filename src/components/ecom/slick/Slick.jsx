@@ -27,9 +27,9 @@ const Slick = () => {
         className={`${styles.home_slider_main} ${styles["slick-dots"]}`}
       >
         <div className={`${styles.wrapper} ${styles["slick-active"]}`}>
-          <Image src={Slider1} layout="fill" objectFit="cover" />
+          <Image src={Slider1} layout="fill" objectFit="cover" data-aos="fade-right"/>
           <div className={styles.info}>
-            <h2 className={quicksand.variable}>
+            <h2 className={quicksand.variable} >
               Don’t miss amazing
               <br />
               grocery deals

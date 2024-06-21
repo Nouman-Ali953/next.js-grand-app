@@ -56,7 +56,8 @@ const Products = ({ item, tag, category, id }) => {
   };
   return (
     <>
-      <div className={styles.wrapper} onClick={() => setCat(category)}>
+      <div className={styles.wrapper} onClick={() => setCat(category)} 
+      data-aos="fade-up" data-aos-anchor-placement="top-center">
         <span className={styles.tag}>Hot</span>
         <Link href={`/shop/details/${item.id}`}>
           <div className={styles.img}>

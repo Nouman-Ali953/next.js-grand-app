@@ -27,23 +27,22 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <AuthContextProvider>
-          <StoreProvider >
-          <MyApp>
-
-            <CartContextProvider>
-              <DataContextApiProvider>
-                <ThemeContextProvider>
-                  <ThemeProvider>
-                    <div className="container">
-                      <Layout>
-                        <div>{children}</div>
-                      </Layout>
-                    </div>
-                  </ThemeProvider>
-                </ThemeContextProvider>
-              </DataContextApiProvider>
-            </CartContextProvider>
-          </MyApp>
+          <StoreProvider>
+            <MyApp>
+              <CartContextProvider>
+                <DataContextApiProvider>
+                  <ThemeContextProvider>
+                    <ThemeProvider>
+                      <div className="container">
+                        <Layout>
+                          <div>{children}</div>
+                        </Layout>
+                      </div>
+                    </ThemeProvider>
+                  </ThemeContextProvider>
+                </DataContextApiProvider>
+              </CartContextProvider>
+            </MyApp>
           </StoreProvider>
         </AuthContextProvider>
       </body>

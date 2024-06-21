@@ -74,11 +74,11 @@ const Shop = () => {
   return (
     <>
       <Slick />
-      <LongSlider />
+      <LongSlider/>
       <Banners />
       <div className={styles.filters_functionality}>
         <h2>Popular Products</h2>
-        <ul>
+        <ul  >
           {categories.map((cat, index) => (
             <li key={index} className={quicksand.variable}>
               <a

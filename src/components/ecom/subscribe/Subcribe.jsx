@@ -8,7 +8,8 @@ import { Button } from "@mui/material";
 const Subcribe = () => {
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.container} 
+      data-aos="zoom-in" data-aos-anchor-placement="top-center">
       <Image src={backpng1} objectFit="contain" quality={100} className={styles.newsletter}/>
         <div className={styles.image_section}>
           <Image
@@ -19,10 +20,12 @@ const Subcribe = () => {
           />
         </div>
         <div className={styles.contant}>
-          <h2 className={quicksand.variable}>
+          <h2 className={quicksand.variable} 
+          data-aos="zoom-in" data-aos-anchor-placement="top-center">
             Stay home & get your daily needs from our shop
           </h2>
-          <p>
+          <p
+          data-aos="zoom-in" data-aos-anchor-placement="top-center">
             Start You'r Daily Shopping with <span>Nest Mart</span>{" "}
           </p>
           <div className={styles.subscribe}>

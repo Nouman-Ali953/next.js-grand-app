@@ -20,7 +20,6 @@ const Banners = () => {
             src={data.srcImg}
             alt="banner_image"
             className={styles.banner_image}
-            // layout="fill"
             quality={100}
             style={{borderRadius:'50px'}}
             key={data.id}

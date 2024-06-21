@@ -104,7 +104,7 @@ const Nav = () => {
             {productData &&
               productData.map((item, index) => {
                 return (
-                  <li className={styles.drop_menu_li_ok} key={index}>
+                  <li className={styles.drop_menu_li_ok} key={index} >
                   
                     <Link href={`/categories/${item.cat_name}`} style={{textDecoration:'none'}}>{item.cat_name} </Link>
                     <KeyboardArrowDown />

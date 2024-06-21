@@ -35,7 +35,7 @@ const LongSlider = () => {
   return (
     <>
       <h2 className="title">Featured Categories</h2>
-      <Slider key={1} className="home_slider_main" {...settings}>
+      <Slider key={1} className="home_slider_main" {...settings} >
         {prodData.map((data) => (
           <>
             <div
@@ -43,7 +43,7 @@ const LongSlider = () => {
               className="info"
               style={{ display: "none", backgroundColor: data.color }}
             >
-              <Image src={Imag} alt={data.title} width={50} height={50} />
+              <Image src={Imag} alt={data.title} width={50} height={50}/>
               <h6>{data.title}</h6>
               <p>50% discount</p>
             </div>
