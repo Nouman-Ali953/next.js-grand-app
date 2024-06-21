@@ -1,0 +1,11 @@
+.container {
+  color: black;
+  padding: 3rem 3rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: var(--bg_component);
+}/*# sourceMappingURL=shop.module.css.map */

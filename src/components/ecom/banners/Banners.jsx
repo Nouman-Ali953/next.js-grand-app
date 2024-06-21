@@ -14,7 +14,7 @@ const Banners = () => {
   ];
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.container} data-aos="fade-up" data-aos-anchor-placement="top-center">
         {imgs.map((data) => (
           <Image
             src={data.srcImg}

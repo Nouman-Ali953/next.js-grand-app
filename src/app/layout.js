@@ -9,6 +9,7 @@ import { DataContextApiProvider } from "@/context/DataContextApi";
 import { AuthContextProvider } from "@/context/AuthContext";
 import { CartContextProvider } from "@/context/CartContext";
 import StoreProvider from "@/providers/StoreProvider";
+import MyApp from "../providers/Aos";
 
 const metadata = {
   title: "Create Next App",
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <AuthContextProvider>
           <StoreProvider >
+          <MyApp>
 
             <CartContextProvider>
               <DataContextApiProvider>
@@ -41,6 +43,7 @@ export default function RootLayout({ children }) {
                 </ThemeContextProvider>
               </DataContextApiProvider>
             </CartContextProvider>
+          </MyApp>
           </StoreProvider>
         </AuthContextProvider>
       </body>

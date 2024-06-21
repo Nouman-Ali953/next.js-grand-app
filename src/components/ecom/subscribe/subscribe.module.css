@@ -1,0 +1,78 @@
+.container {
+  width: 100%;
+  height: 60vh;
+  padding: 1rem 1.9rem;
+  margin-bottom: 1.2rem;
+  position: relative;
+}
+.container .newsletter {
+  position: absolute;
+  right: 4.5rem;
+  top: 2.86rem;
+  width: 34rem;
+  height: 19rem;
+}
+.container .image_section {
+  width: 100%;
+  height: 87%;
+}
+.container .image_section img {
+  width: 100%;
+  height: 120%;
+  border-radius: 20px;
+}
+.container .contant {
+  position: absolute;
+  top: 2rem;
+  left: 5rem;
+  line-height: 2.67rem;
+  width: 44%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container .contant h2 {
+  font-size: 2rem;
+  font-family: var(--font-quicksand);
+  color: rgb(71, 71, 71);
+  margin-top: 2rem;
+}
+.container .contant p {
+  margin-top: -1.2rem;
+  letter-spacing: 0.4px;
+  color: rgba(128, 128, 128, 0.651);
+}
+.container .contant p span {
+  color: #3bb77e;
+}
+.container .contant .subscribe {
+  margin-top: 1rem;
+  height: 3rem;
+  width: 22rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .contant .subscribe input[type=text] {
+  height: inherit;
+  border: none;
+  outline: navajowhite;
+  padding-left: 1rem;
+  width: 100%;
+  font-family: var(--font-quicksand);
+}
+.container .contant .subscribe input[type=text]::-moz-placeholder {
+  letter-spacing: 0.6px;
+  font-family: var(--font-quicksand);
+}
+.container .contant .subscribe input[type=text]::placeholder {
+  letter-spacing: 0.6px;
+  font-family: var(--font-quicksand);
+}
+.container .contant .subscribe button {
+  padding: 0.7rem 3rem;
+  background-color: #3bb77e;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  color: white;
+}/*# sourceMappingURL=subscribe.module.css.map */

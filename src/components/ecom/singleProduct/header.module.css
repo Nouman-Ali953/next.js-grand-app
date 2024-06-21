@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  padding: 0px 1.6rem;
+  height: 3.2rem;
+  display: flex;
+  align-items: center;
+}
+.container ul {
+  text-decoration: none;
+  list-style: none;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  padding-left: 0.2rem;
+  margin-top: 0.4em;
+  font-family: var(--font-quicksand);
+}
+.container ul svg {
+  font-size: 16px;
+  font-weight: 100;
+}
+.container ul li {
+  letter-spacing: 0.4px;
+  font-size: 0.8rem;
+  color: gray;
+  padding: 0%;
+  margin: 0px;
+}
+.container ul li:nth-child(2) {
+  color: #3BB77E !important;
+}
+.container ul li:nth-of-type(2) {
+  color: #3BB77E !important;
+}
+.container ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}/*# sourceMappingURL=header.module.css.map */

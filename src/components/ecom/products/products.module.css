@@ -1,0 +1,168 @@
+.wrapper {
+  border: 1px solid rgba(212, 210, 213, 0.676);
+  width: 14.6rem;
+  border-radius: 14px;
+  min-height: 23rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0.2rem 0.7rem;
+  cursor: pointer;
+  position: relative;
+  margin-top: 1.6rem;
+}
+.wrapper .tag {
+  position: absolute;
+  z-index: 222;
+  top: 0;
+  left: 0;
+  color: white;
+  width: 3.5rem;
+  text-align: center;
+  background-color: rgb(255, 68, 0);
+  border-top-left-radius: 14px;
+  border-bottom-right-radius: 19px;
+  padding: 0.51rem 0.32rem;
+  font-weight: 400;
+  font-size: 0.7rem;
+  letter-spacing: 0.6px;
+}
+.wrapper .info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 50%;
+}
+.wrapper h6 {
+  transition: all 0.2s ease-in-out;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.799);
+  font-family: Quicksand, sans-serif;
+  font-family: var(--font-quicksand);
+}
+.wrapper h6:hover {
+  color: #3bb77e;
+}
+.wrapper p {
+  color: gray;
+  font-size: 0.8rem;
+}
+.wrapper p span {
+  color: #3bb77e;
+  font-weight: 400;
+}
+
+.wrapper .img {
+  transition: all 0.4s ease;
+  height: 50% !important;
+  position: relative;
+  z-index: 111;
+}
+.wrapper .img:hover img {
+  transition: all 0.7s ease-in-out;
+  transform: scale(1.06);
+}
+.wrapper .img .toolcheck {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-57%, -50%);
+  background-color: white;
+  width: 7em;
+  height: 2rem;
+  border: 1px solid rgba(59, 183, 125, 0.3098039216);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+  display: none;
+  z-index: 113;
+}
+.wrapper .img .toolcheck svg {
+  position: absolute;
+  top: -1rem;
+  width: 100%;
+  height: 2rem;
+  border-right: 1px solid rgba(59, 183, 125, 0.3058823529);
+  margin: 1rem 0px;
+  padding: 0.5rem;
+  color: wheat;
+  fill: #3bb77e;
+  z-index: 5;
+}
+.wrapper .img .toolcheck svg:hover {
+  fill: gold;
+}
+.wrapper .img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+img:hover + .toolcheck {
+  display: flex;
+}
+
+.img:hover .toolcheck {
+  transition: 0.1s ease-in-out;
+  display: flex;
+}
+
+.color svg {
+  color: #3bb77e;
+  fill: rgb(255, 187, 0);
+}
+
+.colors svg {
+  fill: rebeccapurple !important;
+}
+
+.price {
+  margin: 0.58rem 0px 0.85rem 0px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 2rem;
+  gap: 5px;
+  justify-content: space-between;
+}
+.price h6 {
+  font-size: 1rem;
+  color: #3bb77e;
+}
+.price p {
+  display: flex;
+  font-size: 0.78rem;
+  color: rgba(128, 128, 128, 0.87);
+  text-decoration: line-through;
+}
+.price button {
+  text-transform: capitalize;
+  background-color: rgba(59, 183, 125, 0.2588235294);
+  color: white;
+  padding: 0.5rem 0.8rem;
+  color: #3bb77e;
+  gap: 6px;
+  transition: all 0.21s ease-in-out;
+  font-size: 0.8rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.price button svg {
+  fill: #3bb77e;
+  font-size: 1rem;
+  transition: all 0.21s ease-in-out;
+}
+.price button:hover {
+  transform: translateY(-2.2px);
+  background-color: #3bb77e;
+  color: white;
+}
+.price button:hover svg {
+  fill: white;
+  transform: translateY(-2.9px);
+}/*# sourceMappingURL=products.module.css.map */

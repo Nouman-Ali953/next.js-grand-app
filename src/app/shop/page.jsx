@@ -106,6 +106,7 @@ const Shop = () => {
                 item={item}
                 category={allCategies[index]}
                 id={item.id}
+                data-aos="fade-up"
               />
             </div>
           ))
