@@ -18,8 +18,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./index.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import AfterProducts from "../afterProducts/AfterProducts";
 import { TextareaAutosize } from "@mui/base";
 import { useParams } from "next/navigation";
@@ -46,12 +44,7 @@ const SingleProduct = (product) => {
   const userId = users?.uid;
   const userImage = users?.photoURL;
   console.log(userId);
-  useEffect(() => {
-    AOS.init({
-      duration: 800,
-      once: false,
-    });
-  }, []);
+  
   const fetchReviews = async () => {
     const Reviews = await getAllReviews(productI);
     setAllReviews(Reviews);
@@ -59,9 +52,7 @@ const SingleProduct = (product) => {
   useEffect(() => {
     fetchReviews();
   }, []);
-  // useEffect(() => {
-  //   fetchReviews();
-  // }, [addReview]);
+ 
   const id = useParams();
   const productI = id.slug;
   const values = 4.5;
@@ -144,7 +135,7 @@ const SingleProduct = (product) => {
     <>
       <Header />
       <div className={styles.container}>
-        <div className={styles.image_section}>
+        <div className={styles.image_section} data-aos="fade-left">
           <div className={styles.wrapper}>
             <Slider {...settings2} className="large" ref={zoomSliderBig}>
               {product.product[0]?.productImages !== undefined &&
@@ -185,7 +176,7 @@ const SingleProduct = (product) => {
             )}
           </Slider>
         </div>
-        <div className={styles.detail_section}>
+        <div className={styles.detail_section} data-aos="fade-right">
           <div className={`${styles.badge} ${quicksand.variable}`}>
             Sale Off
           </div>
@@ -246,9 +237,10 @@ const SingleProduct = (product) => {
         </div>
       </div>
 
-      <div className={styles.bottom_detailed}>
+      <div className={styles.bottom_detailed} data-aos="fade-up">
         <div
           className={`${styles.bottom_detailed_header} ${quicksand.variable}`}
+          data-aos="fade-up"
         >
           {buttons_data?.map((data) => (
             <div

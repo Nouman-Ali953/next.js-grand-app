@@ -4921,6 +4921,106 @@
       ],
       "rating": 0,
       "description": "Ghee is a class of clarified butter that originated in ancient India. It is commonly used in Indian cooking. Amul Cow Ghee can be swapped for vegetable oil or coconut oil in baked goods or can be used for deep-frying. Or simply melt it and spread it on roti, or pour it on vegetables/dal before serving. So go ahead and buy this product online today!"
+    },
+    {
+      "id": "9",
+      "productName": "Gowardhan Pure Cow Ghee 1 L (Jar)",
+      "price": "676",
+      "oldPrice": "820",
+      "weight": [
+        50,
+        100,
+        150,
+        200,
+        250,
+        500
+      ],
+      "catImg": "https://www.jiomart.com/images/product/original/490489040/gowardhan-pure-cow-ghee-1-l-jar-product-images-o490489040-p490489040-0-202203170210.jpg",
+      "discount": "18",
+      "brand": "Gowardhan",
+      "productImages": [
+        "https://www.jiomart.com/images/product/original/490489040/gowardhan-pure-cow-ghee-1-l-jar-product-images-o490489040-p490489040-0-202203170210.jpg",
+        "https://www.jiomart.com/images/product/original/490489040/gowardhan-pure-cow-ghee-1-l-jar-product-images-o490489040-p490489040-1-202203170210.jpg",
+        "https://www.jiomart.com/images/product/original/490489040/gowardhan-pure-cow-ghee-1-l-jar-product-images-o490489040-p490489040-2-202203170210.jpg",
+        "https://www.jiomart.com/images/product/original/490489040/gowardhan-pure-cow-ghee-1-l-jar-legal-images-o490489040-p490489040-5-202203170210.jpg"
+      ],
+      "rating": 5,
+      "description": "Ghee is a class of clarified butter that originated in ancient India. It is commonly used in Indian cooking. Gowardhan Pure Cow Ghee can be swapped for vegetable oil or coconut oil in baked goods or can be used for deep-frying. Or simply melt it and spread it on roti, or pour it on vegetables/dal before serving. So go ahead and buy this product online today!"
+    },
+    {
+      "id": "8",
+      "productName": "Fortune Soya Wadi / Chunks 1 kg",
+      "price": "139",
+      "oldPrice": "152",
+      "weight": [
+        50,
+        100,
+        150,
+        200,
+        250,
+        500
+      ],
+      "catImg": "https://www.jiomart.com/images/product/original/491161236/fortune-soya-wadi-chunks-1-kg-product-images-o491161236-p491161236-0-202303181437.jpg",
+      "discount": "15",
+      "brand": "Fortune",
+      "productImages": [
+        "https://www.jiomart.com/images/product/original/491161236/fortune-soya-wadi-chunks-1-kg-product-images-o491161236-p491161236-0-202303181437.jpg",
+        "https://www.jiomart.com/images/product/original/491161236/fortune-soya-wadi-chunks-1-kg-product-images-o491161236-p491161236-1-202303181437.jpg",
+        "https://www.jiomart.com/images/product/original/491161236/fortune-soya-wadi-chunks-1-kg-legal-images-o491161236-p491161236-4-202303181437.jpg"
+      ],
+      "rating": 4.5,
+      "description": "Fortune Soya Wadi / Chunks are light, soft and easy on your stomach. Does your family need champion wala dum aur yum? From biryanis to pulao and even Chinese fried rice, cooked soya chunks can be added to numerous rice dishes. Fortune Soya Chunk - ''Yum jo de champion ko dum'', so buy Fortune Soya Wadi / Chunks online now!"
+    },
+    {
+      "id": "7",
+      "productName": "Angur Oily Toor Dal 5Kg",
+      "price": "999",
+      "oldPrice": "1100",
+      "weight": [
+        50,
+        100,
+        150,
+        200,
+        250,
+        500
+      ],
+      "catImg": "https://www.jiomart.com/images/product/original/rv8axdxoiw/angur-oily-toor-dal-5kg-product-images-orv8axdxoiw-p602216568-0-202306071944.jpg",
+      "discount": "16",
+      "brand": "Angur",
+      "productImages": [
+        "https://www.jiomart.com/images/product/original/rv8axdxoiw/angur-oily-toor-dal-5kg-product-images-orv8axdxoiw-p602216568-0-202306071944.jpg",
+        "https://www.jiomart.com/images/product/original/rv8axdxoiw/angur-oily-toor-dal-5kg-product-images-orv8axdxoiw-p602216568-1-202306071944.jpg",
+        "https://www.jiomart.com/images/product/original/rv8axdxoiw/angur-oily-toor-dal-5kg-product-images-orv8axdxoiw-p602216568-2-202306071944.jpg",
+        "https://www.jiomart.com/images/product/original/rv8axdxoiw/angur-oily-toor-dal-5kg-product-images-orv8axdxoiw-p602216568-3-202306071944.jpg",
+        "https://www.jiomart.com/images/product/original/rv8axdxoiw/angur-oily-toor-dal-5kg-product-images-orv8axdxoiw-p602216568-4-202306071944.jpg",
+        "https://www.jiomart.com/images/product/original/rv8axdxoiw/angur-oily-toor-dal-5kg-legal-images-orv8axdxoiw-p602216568-5-202306071944.png"
+      ],
+      "rating": 5,
+      "description": "ANGUR TOOR DAL: Toor Dal (split yellow peas) is a mainstay of Indian cuisine. Related to lentils (pulses) and rich in natural nutrients, these delicious legumes are an excellent source of protein, minerals, and B vitamins.ADDS FLAVORFUL PROTEIN: Split yellow peas are an excellent, flavorful protein alternative for any meal. Use as a base or add Toor Dals to your favorite Indian dishes, including curries, soups, stews, salads, and more!"
+    },
+    {
+      "id": "6",
+      "productName": "Good Life Kabuli Chana 1 kg",
+      "price": "185",
+      "oldPrice": "210",
+      "weight": [
+        50,
+        100,
+        150,
+        200,
+        250,
+        500
+      ],
+      "catImg": "https://www.jiomart.com/images/product/original/491187282/good-life-kabuli-chana-1-kg-product-images-o491187282-p491187282-0-202301171615.jpg",
+      "discount": "23",
+      "brand": "Good Life",
+      "productImages": [
+        "https://www.jiomart.com/images/product/original/491187282/good-life-kabuli-chana-1-kg-product-images-o491187282-p491187282-0-202301171615.jpg",
+        "https://www.jiomart.com/images/product/original/491187282/good-life-kabuli-chana-1-kg-product-images-o491187282-p491187282-1-202301171615.jpg",
+        "https://www.jiomart.com/images/product/original/491187282/good-life-kabuli-chana-1-kg-legal-images-o491187282-p491187282-4-202301171615.jpg"
+      ],
+      "rating": 3.5,
+      "description": "Kabuli Chana is rich in proteins, dietary fibre and low in cholesterol and saturated fat. The beans can be soaked in water and cooked along with vegetables in the preparation of a variety of curries that complement well with rice, roti, chapattis, puri, kulcha as well as bread. It can be sprouted after soaking in water for 24 hours and added to salads to enrich the latter with proteins. Buy Good Life Kabuli Chana online now!"
     }
   ]
 }
