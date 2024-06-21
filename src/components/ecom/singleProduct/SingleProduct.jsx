@@ -18,6 +18,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./index.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import AfterProducts from "../afterProducts/AfterProducts";
 import { TextareaAutosize } from "@mui/base";
 import { useParams } from "next/navigation";
@@ -44,6 +46,12 @@ const SingleProduct = (product) => {
   const userId = users?.uid;
   const userImage = users?.photoURL;
   console.log(userId);
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: false,
+    });
+  }, []);
   const fetchReviews = async () => {
     const Reviews = await getAllReviews(productI);
     setAllReviews(Reviews);
@@ -255,6 +263,7 @@ const SingleProduct = (product) => {
           ))}
         </div>
         <div
+        
           className={styles.bottom_detailed_data}
           style={
             activeTab === 0
@@ -347,8 +356,10 @@ const SingleProduct = (product) => {
                 }
               : { opacity: 0, display: "none" }
           }
+          
         >
-          <table className={`${styles["spec-table"]} ${quicksand.variable}`}>
+          <table
+          className={`${styles["spec-table"]} ${quicksand.variable}`}>
             <tbody>
               <tr>
                 <td>Stand Up</td>
@@ -410,6 +421,7 @@ const SingleProduct = (product) => {
           </table>
         </div>
         <div
+         
           style={
             activeTab === 2
               ? {
@@ -425,7 +437,7 @@ const SingleProduct = (product) => {
           className={`${styles.vendors_data} ${quicksand.variable}`}
         >
           <div style={{ margin: "1rem 0px" }}>
-            <div className={styles.rev_con}>
+            <div className={styles.rev_con} >
               <Image
                 src="https://nest-frontend-v6.netlify.app/assets/imgs/vendor/vendor-18.svg"
                 width={60}
@@ -486,6 +498,7 @@ const SingleProduct = (product) => {
                   opacity: 0,
                 }
           }
+          
         >
           {allReviews?.length > 0 ? (
             allReviews?.map((data) => (

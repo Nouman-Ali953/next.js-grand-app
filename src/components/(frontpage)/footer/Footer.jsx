@@ -74,6 +74,8 @@ const Footer = () => {
           </tr>
         </tbody>
       </table>
+      <div
+      className={`${quicksand.variable} ${styles.last_div}`}>copywright 2024 @ made with ❣️ by Nauman Mukhtar</div>
     </div>
   );
 };
